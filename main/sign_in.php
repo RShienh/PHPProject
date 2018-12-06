@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Sign In</title>
-<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/sign_in.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../css/sign_in.css">
 </head>
 
 <body>

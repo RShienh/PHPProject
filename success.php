@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.css">
-    <title>oops!</title>
+    <title>Success!</title>
 </head>
 <body>
 <canvas id="background"></canvas>
@@ -14,7 +14,7 @@
     <div class="header"></div>
     <div class="sidebar">
         <div class="container shadow fadeInDown animated" style="text-align: center">
-            <h1>Error!</h1>
+            <h1><?= 'Success'; ?></h1>
             <p>
                 <?php
                 if (isset($_SESSION['message']) AND !empty($_SESSION['message'])):

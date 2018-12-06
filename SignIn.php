@@ -26,17 +26,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <div class="header"></div>
     <div class="sidebar">
         <div class="container shadow fadeInDown animated">
-            <div class="fleft"><a href="" class="bttn shadow fadeInUp animated"
-                                  style="vertical-align: bottom; margin-top: 125%">
-                    Let's get started !</a></div>
-            <div class="fright"><a href="">
-                    <div class="fright_container shadow fadeInUp animated"></div>
-                </a></div>
         </div>
+        <div class="footer"></div>
     </div>
-    <div class="footer"></div>
-</div>
-<script src="js/canvas.js"></script>
-<script src="js/wow.js"></script>
+    <script src="js/canvas.js"></script>
+    <script src="js/wow.js"></script>
 </body>
 </html>

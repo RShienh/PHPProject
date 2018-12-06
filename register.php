@@ -29,7 +29,7 @@ if ($result->num_rows > 0) {
         $body - 'Hello ' . $firstname . '
         Thank you for signing up!. Click on the this link to activate your account: 
         http://192.168.64.2/PHPProject/main/verify.php?Email=' .
-        $email . '&hash' . $hash;
+        $email . '&hash=' . $hash;
         mail($to, $subject, $body);
         header("location: profile.php");
     } else {

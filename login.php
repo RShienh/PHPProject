@@ -1,5 +1,5 @@
 <?php
-
+include 'api/config/db.php';
 $email = $mysqli->escape_string($_POST['Email']);
 $result = $mysqli->query("SELECT * FROM accounts WHERE email='$email'");
 

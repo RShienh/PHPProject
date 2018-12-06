@@ -26,10 +26,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <div class="header"></div>
     <div class="sidebar">
         <div class="container shadow fadeInDown animated">
-            <div class="fleft"><a href="" class="bttn shadow fadeInUp animated"
+            <div class="fleft"><a href="master.php" class="bttn shadow fadeInUp animated"
                                   style="vertical-align: bottom; margin-top: 125%">
                     Let's get started !</a></div>
-            <div class="fright"><a href="">
+            <div class="fright"><a href="master.php">
                     <div class="fright_container shadow fadeInUp animated"></div>
                 </a></div>
         </div>

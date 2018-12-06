@@ -10,7 +10,7 @@
     <div class="lang"><a href="index_fr.php" class="bttn">En/Fr</a></div>
     <div class="about"><a href="about.php" class="bttn">About</a></div>
     <div class="contact"><a href="contact.php" class="bttn">Contact</a></div>
-    <div class="sign"><a href="login.php" class="bttn">Sign In</a></div>
+    <div class="sign"><a href="master.php" class="bttn">Sign In</a></div>
 </div>
 <script src="js/canvas.js"></script>
 <script src="js/wow.js"></script>

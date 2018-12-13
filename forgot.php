@@ -15,11 +15,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $hash = $user['hash'];
         $FirstName = $user['FirstName'];
 
-        $_SESSION['message'] = "<p>Please check your $email for a password reset link.</p>";
+        $_SESSION['message'] = "Please check your $email for a password reset link.";
 
         $to = $email;
         $subject = 'Password Reset Link from slatedcravings.com';
-        $body = 'Hello ' . $FirstName . '<br>
+        $body = 'Hello ' . $FirstName . '
         You have requested for password reset. Click on the this link to reset your password: 
         http://192.168.64.2/PHPProject/main/reset.php?Email=' .
             $email . '&hash=' . $hash;

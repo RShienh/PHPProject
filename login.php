@@ -1,7 +1,7 @@
 <?php
 include 'api/config/db.php';
 $email = $mysqli->escape_string($_POST['Email']);
-$result = $mysqli->query("SELECT * FROM accounts WHERE email='$email'");
+$result = $mysqli->query("SELECT * FROM accounts WHERE Email='$email'");
 
 if ($result->num_rows == 0) {
     $_SESSION['message'] = "User does not exists";

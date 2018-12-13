@@ -14,7 +14,7 @@ if (isset($_GET['Email']) && !empty($_GET['Email']) AND isset($_GET['hash']) && 
         header("location: error.php");
     } else {
         $_SESSION['message'] = "Your account has been activated";
-        $mysqli->query("UPDATE accounts SET active='1' WHERE email='$email'") or die($mysqli->error);
+        $mysqli->query("UPDATE accounts SET active='1' WHERE Email='$email'") or die($mysqli->error);
         $_SESSION['active'] = 1;
         header("location: success.php");
     }
